@@ -49,11 +49,11 @@
 
        lower_layer {
             bindings = <
-                &trans      &trans      &trans      &trans      &kp GRAV    &trans      &trans      &trans      &trans      &kp NUM     &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12  
-                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp NUM_7   &kp NUM_8   &kp NUM_9   &kp PLUS    &kp LBKT    &kp RBKT    &kp BSLH
-                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp NUM_4   &kp NUM_5   &kp NUM_6   &kp COMMA   &trans      &trans      &trans
-                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp NUM_1   &kp NUM_2   &kp NUM_3   &kp EQUAL   &trans      &kp UARW    &trans
-                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp NUM_0   &kp NUM_0   &kp DOT     &kp RET     &kp LARW    &kp DARW    &kp RARW
+                &trans      &trans      &trans      &trans      &kp GRAV    &trans      &trans      &trans      &trans      &trans      &kp DIVIDE  &kp MULTIPLY &kp MINUS   &kp MINUS   &kp EQUAL   &kp BKSP 
+                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp NUM_7   &kp NUM_8   &kp NUM_9    &kp PLUS    &kp LBKT    &kp RBKT    &kp BSLH
+                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp NUM_4   &kp NUM_5   &kp NUM_6    &kp COMMA   &trans      &trans      &trans
+                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp NUM_1   &kp NUM_2   &kp NUM_3    &kp EQUAL   &trans      &kp UARW    &trans
+                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp NUM_0   &kp NUM_0   &kp DOT      &kp RET     &kp LARW    &kp DARW    &kp RARW
             >;
             sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
