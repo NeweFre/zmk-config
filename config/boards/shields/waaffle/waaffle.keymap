@@ -60,11 +60,11 @@
 
         raise_layer {
             bindings = <
-                &trans      &trans      &trans      &trans      &kp F1      &kp F2          &kp F3          &kp F4          &kp F5          &kp F6      &kp F7      &kp F8      &kp F9      &kp F10      &kp F11      &kp F12  
-                &trans      &trans      &trans      &trans      &trans      &trans          &trans          &trans          &trans          &trans      &trans      &trans      &kp UARW    &trans       &trans       &kp PG_UP
-                &trans      &trans      &trans      &trans      &trans      &rgb_ug RGB_EFF &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &trans      &trans      &kp LARW    &kp DARW    &kp RARW     &trans       &kp PG_DN
-                &trans      &trans      &trans      &trans      &kp RSHFT   &rgb_ug RGB_EFR &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &trans      &trans      &trans      &trans      &kp C_PREV   &kp C_NEXT   &trans  
-                &trans      &trans      &trans      &trans      &kp RCTL    &kp RGUI        &kp RALT        &rgb_ug RGB_TOG &mo 3           &trans      &trans      &trans      &kp C_PP    &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE
+                &trans      &trans      &trans      &trans      &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12  
+                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp HOME    &kp BKSP    &kp DEL     &kp END     &trans
+                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp LARW    &kp DARW    &kp UARW    &kp RARW    &kp APOS    &trans  
+                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans  
+                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &mo 3       &trans      &trans      &trans      &trans      &trans      &trans      &trans
             >;
         };
         
